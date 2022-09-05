@@ -134,6 +134,15 @@ h3 {
     font-weight: 400;
 }
 
+.my-name{
+    font-family: "Sofia", sans-serif;
+}
+
+.description-aryan{
+    font-family: 'Annie Use Your Telescope';
+    font-size: 30px
+}
+
 @media(max-width: 900px) {
     .heading-primary {
         font-size: 6.5rem;
@@ -512,7 +521,7 @@ body:not(.user-is-tabbing) a:focus {
 .client__logos {
     display: flex;
     justify-content: space-between;
-    filter: invert(100%) grayscale(100%) opacity(.8);
+    /* filter: invert(100%) grayscale(100%) opacity(.8); */
 }
 
 .client__logo {
